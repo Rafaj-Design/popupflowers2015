@@ -1,5 +1,5 @@
 <?php
-$_GET['email'] = json_encode($_GET);
+//$_GET['email'] = json_encode($_GET);
 if (isset($_GET['email'])) {
 	$text = $_GET['email']."\n";
 	$filename = "emails.txt";
